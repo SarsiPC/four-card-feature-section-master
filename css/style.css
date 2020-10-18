@@ -110,12 +110,11 @@ body{
 @media only screen and (max-width: 1085px){
 
 	.content-2{
-		display: flex;
 		flex-direction: column;
 	}
 
 	.card-1, .card-2, .card-3, .card-4{
-		max-width: 50rem;
+		max-width: 43rem;
 	}
 
 	.card-1, .card-4{
@@ -127,11 +126,18 @@ body{
 
 @media only screen and (max-width: 600px){
 
-	.br-p{
-		display: inline-block;
-	}
-
 	.title-1, .title-2{
 		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 375px){
+
+	.main-container{
+		max-width: 375px;
+	}
+
+	.content-2{
+		align-items: center;
 	}
 }
